@@ -22,7 +22,7 @@
 body,
 html {
   background: linear-gradient(rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.1)), url("/public/img/background1.webp");
+      rgba(255, 255, 255, 0.1)), url("public/img/background1.webp");
   @include backgroundCenter();
   font-family: "cwTeXFangSong", serif;
   min-width: 1024px;
@@ -73,7 +73,7 @@ a {
 }
 
 .pages [class^="page-num-"] {
-  background-image: url("/public/img/page.jpg");
+  background-image: url("public/img/page.jpg");
   background-size: auto 100%;
   position: relative;
 }
@@ -169,7 +169,7 @@ a {
 
 .menuBanner{
   background: linear-gradient(rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.1)), url("/public/img/background2.webp");
+        rgba(255, 255, 255, 0.1)), url("public/img/background2.webp");
   @include backgroundCenter();
   @include displayCenter();
   position: absolute;
