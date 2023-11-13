@@ -26,10 +26,10 @@
 
 <h2 id="3"> 使用語言--Language</h2>
 
-1.HTML
-2.SCSS
-3.Javascript
-4.[下載turn.js](https://www.turnjs.com/)
+1. HTML
+2. SCSS
+3. Javascript
+4. [下載turn.js](https://www.turnjs.com/)
 
 <h2 id="4"> 專案連結--Running the project</h2>
 

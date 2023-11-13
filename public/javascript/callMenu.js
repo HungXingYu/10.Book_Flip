@@ -14,7 +14,7 @@ function showMenu(){
     div.innerHTML = `
         <div class="menu-content">
             <div class="menu-content-inner">
-                <h1><a href="about.html">關於作者</a></h1>
+                <h1><a href="index.html">關於作者</a></h1>
             </div>
             <div class="menu-content-inner">
                 <h1>陳艾故事</h1>

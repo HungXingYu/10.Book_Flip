@@ -65,7 +65,7 @@ a:link, a:active, a:visited {
 }
 
 .pages [class^=page-num-] {
-  background-image: url("/public/img/page.jpg");
+  background-image: url("/public/img/page.png");
   background-size: auto 100%;
   position: relative;
 }
