@@ -7,7 +7,7 @@
 
 body,
 html {
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("/img/background1.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../img/background1.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ a:link, a:active, a:visited {
 }
 
 .pages [class^=page-num-] {
-  background-image: url("/img/page.jpg");
+  background-image: url("../img/page.jpg");
   background-size: auto 100%;
   position: relative;
 }
@@ -155,7 +155,7 @@ a:link, a:active, a:visited {
 }
 
 .menuBanner {
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)), url("/img/background2.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)), url("../img/background2.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
