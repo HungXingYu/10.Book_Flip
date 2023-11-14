@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css');
 
-@mixin displayCenter(){
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@mixin displayCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@mixin backgroundCenter(){
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+@mixin backgroundCenter() {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 *,
@@ -22,7 +22,7 @@
 body,
 html {
   background: linear-gradient(rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.1)), url("../img/background1.webp");
+      rgba(255, 255, 255, 0.1)), url("https://raw.githubusercontent.com/HungXingYu/img/main/background1.webp");
   @include backgroundCenter();
   font-family: "cwTeXFangSong", serif;
   min-width: 1024px;
@@ -53,8 +53,8 @@ a {
   @include displayCenter();
 
   img {
-      filter: drop-shadow(15px 5px 5px #494338);
-      max-width: 148%;
+    filter: drop-shadow(15px 5px 5px #494338);
+    max-width: 148%;
   }
 }
 
@@ -73,7 +73,7 @@ a {
 }
 
 .pages [class^="page-num-"] {
-  background-image: url("../img/page.jpg");
+  background-image: url("https://github.com/HungXingYu/img/blob/main/page.jpg?raw=true");
   background-size: auto 100%;
   position: relative;
 }
@@ -107,41 +107,44 @@ a {
   height: 550px;
   font-size: 20px;
 
-  a{
-      background: linear-gradient(-90deg, rgb(255, 255, 255 ,0), 80%, rgba(254, 240, 166) 20%);
-      padding: 5px;
-      cursor: pointer;
+  a {
+    background: linear-gradient(-90deg, rgb(255, 255, 255, 0), 80%, rgba(254, 240, 166) 20%);
+    padding: 5px;
+    cursor: pointer;
 
-      &:hover,
-      &:focus {
-        background: linear-gradient(-90deg, rgb(254, 240, 166), 80%, rgba(255, 255, 255) 20%);
-      }
+    &:hover,
+    &:focus {
+      background: linear-gradient(-90deg, rgb(254, 240, 166), 80%, rgba(255, 255, 255) 20%);
+    }
   }
 }
 
-.page-num-start,.page-num-end{
+.page-num-start,
+.page-num-end {
   .content-inner {
     vertical-align: middle;
     text-align: center;
   }
 }
 
-.page-num-content{
-  .pages-content{
+.page-num-content {
+  .pages-content {
     @include displayCenter();
+
     .content-inner {
-        @include displayCenter();
-        a{
-          display: flex;
-          justify-content: space-between;
-          align-content: space-between;
-          vertical-align: middle;
-          
-          .content-num {
-              writing-mode: horizontal-tb;
-            }
+      @include displayCenter();
+
+      a {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        vertical-align: middle;
+
+        .content-num {
+          writing-mode: horizontal-tb;
         }
       }
+    }
   }
 }
 
@@ -153,58 +156,56 @@ a {
   cursor: pointer;
 
   h1 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0), 80%, rgb(254, 240, 166) 20%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), 80%, rgb(254, 240, 166) 20%);
+    padding: 5px;
+
+    a {
       padding: 5px;
 
-      a{
-          padding: 5px;
-
-          &:hover,
-          &:focus {
-            background: linear-gradient(180deg, rgba(255, 255, 255), 80%, rgb(254, 240, 166) 20%);
-          }
+      &:hover,
+      &:focus {
+        background: linear-gradient(180deg, rgba(255, 255, 255), 80%, rgb(254, 240, 166) 20%);
       }
+    }
   }
 }
 
-.menuBanner{
+.menuBanner {
   background: linear-gradient(rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.1)), url("../img/background2.webp");
+      rgba(255, 255, 255, 0.1)), url("https://raw.githubusercontent.com/HungXingYu/img/main/background2.webp");
   @include backgroundCenter();
   @include displayCenter();
   position: absolute;
   z-index: 999;
   top: 10vh;
   width: 99%;
-  height:90vh;
+  height: 90vh;
   margin: 0 auto;
 
-  .menu-content{
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: flex-start;
-      padding: 10%;
+  .menu-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 10%;
 
-      .menu-content-inner {
-          writing-mode: vertical-rl;
-          text-shadow: rgb(254, 240, 166 , 0.5) 0.2em 0.1em 0.2em;
+    .menu-content-inner {
+      writing-mode: vertical-rl;
+      text-shadow: rgb(254, 240, 166, 0.5) 0.2em 0.1em 0.2em;
 
-          a {
-            background: linear-gradient(150deg, rgba(255, 255, 255, 0), 50%, rgb(254, 240, 166) 20%);
-            cursor: pointer;
-            padding: 5px;
-        
-            &:hover,
-            &:focus {
-              background: linear-gradient(150deg, rgba(255, 255, 255), 50%, rgb(254, 240, 166) 20%);
-            }
-          }
-      
-          h2 {
-            padding-top: 20px;
-          }
+      a {
+        background: linear-gradient(150deg, rgba(255, 255, 255, 0), 50%, rgb(254, 240, 166) 20%);
+        cursor: pointer;
+        padding: 5px;
+
+        &:hover,
+        &:focus {
+          background: linear-gradient(150deg, rgba(255, 255, 255), 50%, rgb(254, 240, 166) 20%);
         }
-  }
-  
-}
+      }
 
+      h2 {
+        padding-top: 20px;
+      }
+    }
+  }
+}

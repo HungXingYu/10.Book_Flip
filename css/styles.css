@@ -7,7 +7,7 @@
 
 body,
 html {
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../img/background1.webp");
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("https://raw.githubusercontent.com/HungXingYu/img/main/background1.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ a:link, a:active, a:visited {
 }
 
 .pages [class^=page-num-] {
-  background-image: url("../img/page.jpg");
+  background-image: url("https://github.com/HungXingYu/img/blob/main/page.jpg?raw=true");
   background-size: auto 100%;
   position: relative;
 }
@@ -110,7 +110,8 @@ a:link, a:active, a:visited {
   background: linear-gradient(-90deg, rgb(254, 240, 166), 80%, rgb(255, 255, 255) 20%);
 }
 
-.page-num-start .content-inner, .page-num-end .content-inner {
+.page-num-start .content-inner,
+.page-num-end .content-inner {
   vertical-align: middle;
   text-align: center;
 }
@@ -155,7 +156,7 @@ a:link, a:active, a:visited {
 }
 
 .menuBanner {
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)), url("../img/background2.webp");
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)), url("https://raw.githubusercontent.com/HungXingYu/img/main/background2.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
