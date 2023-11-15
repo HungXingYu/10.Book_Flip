@@ -106,6 +106,8 @@ a {
   writing-mode: vertical-rl;
   height: 550px;
   font-size: 20px;
+  position: absolute;
+  right: 20px;
 
   a {
     background: linear-gradient(-90deg, rgb(255, 255, 255, 0), 80%, rgba(254, 240, 166) 20%);
@@ -124,6 +126,7 @@ a {
   .content-inner {
     vertical-align: middle;
     text-align: center;
+    position: static;
   }
 }
 
@@ -133,6 +136,7 @@ a {
 
     .content-inner {
       @include displayCenter();
+      position: static;
 
       a {
         display: flex;

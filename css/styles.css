@@ -100,6 +100,8 @@ a:link, a:active, a:visited {
   writing-mode: vertical-rl;
   height: 550px;
   font-size: 20px;
+  position: absolute;
+  right: 20px;
 }
 .content-inner a {
   background: linear-gradient(-90deg, rgba(255, 255, 255, 0), 80%, rgb(254, 240, 166) 20%);
@@ -114,6 +116,7 @@ a:link, a:active, a:visited {
 .page-num-end .content-inner {
   vertical-align: middle;
   text-align: center;
+  position: static;
 }
 
 .page-num-content .pages-content {
@@ -125,6 +128,7 @@ a:link, a:active, a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: static;
 }
 .page-num-content .pages-content .content-inner a {
   display: flex;
