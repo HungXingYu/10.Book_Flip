@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>木樨奇蹟同人創作集--volcano</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container" id="book">
+        <div class="book-wrapper">
+            <!-- Menu-->
+            <div id="menu">
+                <h1><a>Menu</a></h1>
+            </div>
+            <!-- Go to Page-->
+            <div id="toPage">
+                <input type="text" placeholder="頁碼">
+            </div>
+            <!-- Book-->
+            <div class="book-cover">
+                <img src="img/bookcover.png" alt="">
+            </div>
+            <div class="pages-container">
+                <div class="pages">
+                    <!--開頭 -->
+                    <div class="page-num-start">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <p>volcaon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--贈言 -->
+                    <div class="page-num-content">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>這一生有這麼個人出現，何其有幸。</p>
+                                    <p>祝柏文、典典生日快樂！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 目錄 -->
+                    <div class="page-num-content">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <h3>
+                                        <a onclick="ToPage(6)">Chapter 00
+                                            <span>----------------
+                                                <span class="content-num">6</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(9)">Chapter 01
+                                            <span>----------------
+                                                <span class="content-num">9</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(14)">Chapter 02
+                                            <span>----------------
+                                                <span class="content-num">14</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(18)">Chapter 03
+                                            <span>----------------
+                                                <span class="content-num">18</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(26)">Chapter 04
+                                            <span>----------------
+                                                <span class="content-num">26</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-content">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <h3>
+                                        <a onclick="ToPage(34)">Chapter 05
+                                            <span>----------------
+                                                <span class="content-num">34</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(46)">Chapter 06
+                                            <span>----------------
+                                                <span class="content-num">46</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(53)">Chapter 07
+                                            <span>----------------
+                                                <span class="content-num">53</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(69)">Chapter 08
+                                            <span>----------------
+                                                <span class="content-num">69</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <h3>
+                                        <a onclick="ToPage(78)">Chapter 09
+                                            <span>----------------
+                                                <span class="content-num">78</span>
+                                            </span>
+                                        </a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-content">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p style="font-style: italic;">&emsp;&emsp;Like volcano</p>
+                                    <p style="font-style: italic;">&emsp;&emsp;手碰觸到就會融化 那種溫度的love</p>
+                                    <p style="font-style: italic;">&emsp;&emsp;將我帶到地底那盡頭</p>
+                                    <p style="font-style: italic;">&emsp;&emsp;就算全部燃燒殆盡也無妨</p>
+                                    <p style="font-style: italic;">&emsp;&emsp;即使回頭數百遍 我的選擇都只會是</p>
+                                    <p style="font-style: italic;">&emsp;&emsp;</p>
+                                    <p style="font-style: italic;">&emsp;&emsp;你</p>
+                                    <p style="font-style: italic;">&emsp;&emsp;——《volcano》韓知城</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 00 -->
+                    <div class="page-num-6">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;00</p>
+                                    <p>&emsp;&emsp;聖潔白羽紛飛，管風琴演奏出浩大而莊嚴的樂章，透過彩繪玻璃陽光直射地面明亮了空間，華美神聖的浮雕擺飾一同讚美歌頌。台下座無虛席，他們或衣衫襤褸，或富貴華麗皆雙手合十與上帝禱告，將自己的軟弱與依託歸與上帝。站於台前背對眾人的男子面前有著巨大的十字架，他只是單單看著前方，看著十字架旁穿著純潔白袍的人。</p>
+                                    <p>&emsp;&emsp;「神說，世人皆有罪。」</p>
+                                    <p>&emsp;&emsp;靜寂的空間中著白袍之人宣讀著。</p>
+                                    <p>&emsp;&emsp;「是，我有罪。」</p>
+                                    <p>&emsp;&emsp;男子低沈的嗓音擲落於地。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-7">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「耶穌已用寶血洗淨這世間的罪惡，恢復了人與神之間的橋樑。只要跟隨上帝的旨意就能洗淨身上的罪，通過審判獲得永生。」</p>
+                                    <p>&emsp;&emsp;眼神相接，淡然而憐憫的眼神彷彿神於世間上的代言人，然而純白無暇總是引人遐想。</p>
+                                    <p>&emsp;&emsp;「我有罪，而我將用這一生償還。」</p>
+                                    <p>&emsp;&emsp;他笑著說，漸漸走向白袍人面前，單膝跪地後捧起他配戴著的十字架，於上面落下一吻後抬眼。</p>
+                                    <p>&emsp;&emsp;「我的罪即是我的神，我信仰著無法抗拒的邪惡。」</p>
+                                    <p>&emsp;&emsp;十字被扯落的瞬間四周玻璃碎裂，驚慌聲四起，在其餘眾人急忙逃竄之時白袍人身後羽翼展開，潔白無垢神聖不可</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-8">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>侵犯，卻在男子手指輕微觸碰後於空中散落。紛紛白羽落下於兩人身上，然而於男子肌膚表面烙下斑斑印記，留下不可磨滅的傷，炙熱而疼痛著。</p>
+                                    <p>&emsp;&emsp;但他選擇把即將跌落的天使緊抱於懷中。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 01 -->
+                    <div class="page-num-9">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;01</p>
+                                    <p>&emsp;&emsp;感受到彷彿被火燒的熱意讓陳柏文於夢中醒來，猛的張開眼坐起身後摸了摸背手上滿是汗水，定睛一看才發現不知為何睡前運轉得好好的冷氣被關上，室內陷入悶熱和粘膩。按亮手機螢幕顯示時間三點多接近四點，是夜色最深沉的時刻。陳柏文站起身重新打開冷氣，想了想還是進浴室洗了個冷水澡。</p>
+                                    <p>&emsp;&emsp;打開蓮蓬頭沖走了燥熱，溽暑帶來的不舒服與粘膩感一掃而空。睡到一半驚醒對陳柏文來說算是難得的體驗，依照過往的習慣他都是一覺到天亮的。</p>
+                                    <p>&emsp;&emsp;深夜之時是一個人最孤獨也是情感最豐沛的時候——望向鏡中的自己時陳柏文突然想起之前姜典的畢業製作內容，事實上那些意涵與內容對於陳柏文來說似懂非懂，但他現在好</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-10">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>像有點體驗到這是什麼感覺了。</p>
+                                    <p>&emsp;&emsp;深夜之中總有全世界只剩自己的孤獨感。</p>
+                                    <p>&emsp;&emsp;關上浴室的燈，拿了杯子倒水喝上一口後走回床上。黎明前夕的現在是萬籟俱寂之刻，但腦中思緒活躍著，姜典這個名字划過腦海中和他綁定的就是奇蹟——人生中第一次擔當主演的電視劇。拿出手機又將預告片看了一遍還是忍不住的激動，看到那些片段就會想起在劇組和大家相處的回憶。</p>
+                                    <p>&emsp;&emsp;其實喜歡上演戲是意外，但陳柏文喜歡這種意外。</p>
+                                    <p>&emsp;&emsp;莽莽撞撞地闖入了和前大半輩子馳騁的球場上截然不同的世界，興奮好奇刺激，將自己塞進不同角色之中去過不同人生，和劇組人員從一開始的陌生到後面培養出感情。陳柏文喜歡與人交流，而這正是一份需要大量接觸人群的工作，</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-11">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>表演時所帶給他的快樂是他堅持這份工作的原動力。</p>
+                                    <p>&emsp;&emsp;陳柏文知道自己在外表現出來的很陽光，外向，開朗，他一直覺得自己是喜歡把事情攤開來說清楚的人，他也的確是，只是有限定範圍例外。</p>
+                                    <p>&emsp;&emsp;在他的人生中有那麼一小圈，那是沒有人可以踏進的地方，就像是籃球罰球時所有人都站在禁區外，就連罰球的球員也不例外。而在那之中他會反覆去思考，消化，也藏著他自己可能都沒有察覺過的，最深層的自己。</p>
+                                    <p>&emsp;&emsp;每一次表演都是一個探索自己的機會，在經過上半年的旅途中他又更認識自己一點，而殺青後回想這一切，他發自肺腑的認為這次的搭檔是典典是他表演生涯的奇蹟。</p>
+                                    <p>&emsp;&emsp;在上戲時表演上的幫助是屬於艾迪的能量讓他輕易的進</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-12">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>入陳毅的世界，那感覺就像是有人牽著他的手指引往前走領略其中的奧妙。但不止如此，事實上他們的交友圈可以說是截然不同，近乎相對的人生若不在這次遇見他們可能這一輩子都不會那麼熟識甚至根本不認識。然而和典典深入交流的過程中，讓他用截然不同的角度看待自己。</p>
+                                    <p>&emsp;&emsp;他身上有很多自己要學習的地方，有很多讓他羨慕的地方，但最多的還是感謝吧。</p>
+                                    <p>&emsp;&emsp;光這個人出現在自己生命中這件事就很值得感謝了。</p>
+                                    <p>&emsp;&emsp;謝謝他帶給自己的所有，那些表演上的刺激，那些情緒上的傳遞，那些不用說出來的默契；還有那些幹話，那些胡鬧，那些剖析彼此的交流和美好的回憶。</p>
+                                    <p>&emsp;&emsp;陳柏文從沒有想過會遇到那麼契合的人。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-13">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;明明如此相反，明明如此不同，但總感覺在他身邊才完整。</p>
+                                    <p>&emsp;&emsp;躺回床上閉上眼，深夜中亂竄於腦海的思緒迅速回歸平靜，一方面是他入睡速度本來就很快，但另一方面——</p>
+                                    <p>&emsp;&emsp;可能是姜典這個人的存在本身帶來的安全感吧。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--02-->
+                    <div class="page-num-14">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;02</p>
+                                    <p>&emsp;&emsp;姜典總有種自己還沒準備好然而就被時間推著走的感覺。</p>
+                                    <p>&emsp;&emsp;快速繁忙的生活中感知來的很慢，每一天只有劇本、艾迪和陳柏文的生活就這樣過了一個月，那一個月中一直幻想著殺青後的生活，而短暫逃離台北後自由快樂的空氣與記憶中無差。</p>
+                                    <p>&emsp;&emsp;慢悠悠的晃著，用力捕捉每時每刻所帶來的感覺，放空自己也放空所有。</p>
+                                    <p>&emsp;&emsp;然而時間的腳步又加快了，畢業製作開始後製後又準備放映，進入盛夏戴上領巾，匆忙的在校園中四處留下記憶，雖然還未離開這既怪誕又令人懷念的地方，但周遭的大多數</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-15">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>人們早已各奔前程，離別既象徵不捨又代表著人生新旅途的開始。</p>
+                                    <p>&emsp;&emsp;姜典有時候好像能在生活中感覺到。</p>
+                                    <p>&emsp;&emsp;在外務變少之後更有時間留給自己，陪伴每一位角色走過後他們總會在自己的人生中留下痕跡。雖說演員總是在演繹不屬於自己的人生，但那些透過角色釋放的情感都是將自己抽離分解，找出和角色相似的那一面並且釋放。</p>
+                                    <p>&emsp;&emsp;畫面碎片式的閃回於眼前，情不自禁的用各種技巧與手法去解讀卻發現毫無章法。眼見不一定為實，有各種手段屏蔽與剪輯真相，但印記無法被抹去而真摯情感流露美麗的令人動容。</p>
+                                    <p>&emsp;&emsp;那一陣子的姜典選擇剪輯。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-16">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;回到了習以為常的日常生活，和三五好友聯絡出遊，是痛快的玩樂享受於畢業旅行中，舒適圈中能放縱自我。那異國萬里無雲湛藍的天空下太陽毫不留情的照耀，炙烈而火熱，然而海水冰涼而清澈，接觸的瞬間他懂了，所以笑了。</p>
+                                    <p>&emsp;&emsp;進入了溽暑，回到濕黏又悶熱的台北姜典以為他早已習慣，但也只是習慣躲進冷氣房中罷了。或者進入幽然秘境與大自然相處，熟悉的人們相處起來總是輕鬆愉快。工作又多了起來，主演的電視劇定檔該開始跑宣傳。</p>
+                                    <p>&emsp;&emsp;在交流之中那些感覺漸漸清晰，閱讀著書寫愛的語言時發現自己還是有所欠缺需要學習，放慢腳步經過時間淬鍊後察覺出旅程在自己身上留下的痕跡，說不出是好是壞，但可以肯定那是愛。</p>
+                                    <p>&emsp;&emsp;愛，多麼崇高的詞彙，他代表了人與人之間的情感連</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-17">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>結。有了愛好像就與世界連著一條線，就不再孤獨，會主動想起與這世界的聯繫，天亮之前不再有被世界拋下的茫然，在情感滿溢的深夜中不再徬徨，因為有了確切的出發口。</p>
+                                    <p>&emsp;&emsp;姜典感覺到了。</p>
+                                    <p>&emsp;&emsp;但他不知道要不要下這種決定，將一個人的事擴大到兩個人他沒有自信。至少表面要表現的完美如同過往，忘記毀滅之必要(*)。但最後他想，一切隨緣放任事情順其自然，時間與感覺會把他們帶到未來的遠方，無論結果如何他都只想說。</p>
+                                    &emsp;&emsp;謝謝你，我愛你。
+                                    <p>-----------------------------------------------------------------------*註一：出自8/30姜典攝影帳的貼文「用盡一切顯得完美，忘記毀滅的必要」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--03-->
+                    <div class="page-num-18">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;03</p>
+                                    <p>&emsp;&emsp;在燈光與鏡頭之下緊緊攬住姜典的肩，他的手抓住自己的手指，微微往後靠在自己身上。只要稍稍低下頭就可嗅到他髮間的香味，圓潤的耳尖白裡透紅，黑色皮質頸鏈禁錮著白皙脖頸。</p>
+                                    <p>&emsp;&emsp;陳柏文其實蠻享受被依賴的感覺。</p>
+                                    <p>&emsp;&emsp;每次上節目宣傳時他們就是彼此的依靠，將姜典抱進懷裡時那些片刻他都有些恍惚，那些情感湧現時他錯以為是陳毅。望進姜典的雙眼時那之中炙熱的情感觸動了他的心弦，但工作當下他來不及多想，只能順著本能完成直到節目結束。</p>
+                                    <p>&emsp;&emsp;陳柏文的情感輸出沒有那麼直覺，要在腦海中反覆建</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-19">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>構。</p>
+                                    <p>&emsp;&emsp;但真正炙熱的情感一但觸碰到是來不及傳遞到大腦的，身體反應比腦神經電流傳遞更加迅速。</p>
+                                    <p>&emsp;&emsp;有一瞬，就那麼一瞬，在望進姜典眼底時陳柏文的眼睫毛顫動了，隨即垂眼，沒過多久就抬起頭咧嘴傻傻地笑著。</p>
+                                    <p>&emsp;&emsp;＊</p>
+                                    <p>&emsp;&emsp;漫步於淡水河畔與北藝大是自己這幾年最熟悉的地方，熟悉的綠草皮以及淡水河，每次經過都熱鬧非凡的土耳其冰淇淋和每日穿梭其中的階梯，一起修課拍片吃午餐的摯友和陳柏文。</p>
+                                    <p>&emsp;&emsp;努力地抓住夏日的尾巴，雖沒有如同《仲夏夜之夢》般</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-20">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>滑稽但也彷彿被施了魔法做了個夢。</p>
+                                    <p>&emsp;&emsp;天氣很熱氣氛很愉快，在學校的山上隨意走著，隨手買了咖啡就四處晃晃，習以為常的風景和不同人欣賞就產生了特殊的意義；在老街上走著，逛紀念品店吹冷氣玩射氣球，和街頭藝人玩耍吃糖葫蘆，回到了童真的趣味和純真的快樂。</p>
+                                    <p>&emsp;&emsp;時間過得很快，卻在按下快門的霎那成為了永恆。而姜典希望如今的每時每刻都留下影像，記錄著回憶訴說出不同故事。</p>
+                                    <p>&emsp;&emsp;——留下一些念想反覆翻閱。</p>
+                                    <p>&emsp;&emsp;鄰近傍晚的淡水已經什麼都沒有，之後有事的友人早已先一步離開，夕陽西下後不再那麼炎熱，喝著飲料坐在長椅</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-21">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>上遠眺河面聊天。</p>
+                                    <p>&emsp;&emsp;說著生活大小事，夕陽餘暉打在彼此的臉上鋪上一層暖光，撐在身側的手前後錯開著，手指若有似無的交錯。姜典拿起手搖吸了一口，稍微搖頭晃腦聽陳柏文分享這陣子在接觸一些表演課的事前準備，除了工作之外有什麼課程規劃，聽到一半姜典突然開口。</p>
+                                    <p>&emsp;&emsp;「誒，你喜歡秋天還是夏天。」</p>
+                                    <p>&emsp;&emsp;陳柏文有些驚訝地轉頭看向姜典，卻只看到他平淡望向前方的側臉，陳柏文也轉過頭看著被夕陽染上金黃的河面，不以為然地想了想回答。</p>
+                                    <p>&emsp;&emsp;「嗯⋯⋯有點猶豫欸，現在太熱了還是涼一點好，但⋯⋯還是夏天吧，雖然太陽很熱但夏天可以去玩水，而且</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-22">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>整體感覺……我就比較喜歡夏天。不過現在想要溫度趕快降下來，太熱了。」</p>
+                                    <p>&emsp;&emsp;「的確，的確你比較喜歡夏天。」</p>
+                                    <p>&emsp;&emsp;姜典突然笑著點頭，雙手撐在後面身體往後靠用一種不知該如何敘述的眼神望向河面。</p>
+                                    <p>&emsp;&emsp;「我比較喜歡秋天，雖然現在台灣的秋天幾乎要消失了，但我喜歡那種蕭瑟的感覺，枯萎了好像很悲傷但那也是再一次的重生，等到所有事物結束之後又是個新的開始。」</p>
+                                    <p>&emsp;&emsp;陳柏文那瞬間覺得姜典好像離自己好遠，卻又離他的思維很近。</p>
+                                    <p>&emsp;&emsp;「而且秋天可以撿到很多發黃的葉子，還蠻好看的。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-23">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;姜典語氣一轉，興奮的說完這句話後空氣安靜了片刻，兩人對視的瞬間就一起笑了出來。</p>
+                                    <p>&emsp;&emsp;談論著以後要不要一起去山上撿葉子，說著最近看到什麼搞笑影片，之前打球的時候朋友把球扣到別人臉上還做成短影片等等生活瑣碎。時間過去太陽下山了，天色已暗姜典坐上陳柏文的副駕讓陳柏文載他回家，車上的聊天與談話依舊愉悅瑣碎，下車前陳柏文看著姜典的背影愣了幾秒，突然抓住姜典的手臂並著急地叫住他。</p>
+                                    <p>&emsp;&emsp;「蛤？怎麼了嗎？我是有東西忘了拿嗎？」</p>
+                                    <p>&emsp;&emsp;陳柏文也說不出為甚麼要突然這樣，只是看著的背影突然想到下午的片刻，陳柏文呆滯般的對上姜典滿是疑惑的雙眼，那個無法用言語訴說的眼神和過往的種種在某個瞬間突然懂了，陳柏文眼神一轉失笑著放開姜典的手。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-24">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「沒事啦明天見。」</p>
+                                    <p>&emsp;&emsp;姜典有些茫然地看著陳柏文，雖滿是困惑但確定沒事回一句明天見就下車，陳柏文收起笑容趴在方向盤上，看著姜典步入大門後打方向盤轉向離去。</p>
+                                    <p>&emsp;&emsp;他第一次這麼討厭秋天。</p>
+                                    <p>&emsp;&emsp;＊</p>
+                                    <p>&emsp;&emsp;長椅旁空白的座位上飄落的落葉，秋天就在這彷彿夏日的溫度下悄悄來臨，如同落葉凋零般不起眼又容易被忽略。</p>
+                                    <p>&emsp;&emsp;但直到滿地枯黃時，才發現只能眼睜睜看著無法挽回。</p>
+                                    <p>&emsp;&emsp;＊</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-25">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;每次詢問心動時他都避開不提，真相太過赤裸他承受不住，他發現這東西重要到他不敢宣之於口，藏進心底甚至騙過自己。</p>
+                                    <p>&emsp;&emsp;後來的後來，陳柏文才發現原來從一開始，從陳毅對艾迪的愛開始就是他對姜典的迷戀。只是那時全心投入拍攝而來不及反應，他只覺得一切順利的出乎意料，對艾迪情感迸發的不假思索，那濃厚和熱烈的情愫回過頭看都是因為對方才流露的如此自然。</p>
+                                    <p>&emsp;&emsp;珍重的情感藏進內心最深處的角落就連自己都隱瞞，等到再次被翻閱後才恍然大悟。</p>
+                                    <p>&emsp;&emsp;是你，原來一直以來都是你。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--04-->
+                    <div class="page-num-26">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;04</p>
+                                    <p>&emsp;&emsp;一起走在馬路上閒晃，夜晚的台北總是如此燈火通明，熱鬧、繁華、令人情不自禁迷戀在這霓虹燈中。</p>
+                                    <p>&emsp;&emsp;在路燈的照耀下行進的影子相疊，陳柏文漫不經心的拍下。</p>
+                                    <p>&emsp;&emsp;房內無意義的交談消磨時間，意外又不意外的吻，雙唇接觸的瞬間理智瞬間被麻醉，在現實與夢境的交界處沉醉。</p>
+                                    <p>&emsp;&emsp;姜典不會過問的陳柏文清楚的很，沒有人會主動提起。</p>
+                                    <p>&emsp;&emsp;永遠到達不了的距離是心照不宣的秘密。</p>
+                                    <p>&emsp;&emsp;*</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-27">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;兩天一夜的露營畢業旅行彷彿回到國高中時期和班上同學一同出遊的興奮感，活動小遊戲讓氣氛熱烈，一起搭帳棚洗菜切菜，胡搞玩鬧談天說地，緊急開了直播和大家一起玩耍，徹夜嗨歌到夜半時分大家也就紛紛回到各自的帳篷休息。</p>
+                                    <p>&emsp;&emsp;深夜玩鬧過後雖滿是疲憊，但總覺得睡覺更為浪費，由一個簡短的問句就開啟了徹夜的談天。</p>
+                                    <p>&emsp;&emsp;萬籟俱寂的夜只剩蟲鳴聲醒著，三四點是人們睡眠最深沉的時候，往常的他們應該沈眠陷入夢境。如今雖清醒著，精神卻稍嫌恍惚有如夢似幻的感覺。</p>
+                                    <p>&emsp;&emsp;姜典躺在陳柏文的懷裡枕在他的手臂上，而陳柏文輕撫著他的髮，手指輕捲起把玩。面對面近距離說著內心最真誠的感受，露營時的快樂時光和對未來的規劃和對粉絲們真心</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-28">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>的感謝，雙眼對視片刻低下頭，呼吸近在咫尺唇瓣若有似無的碰觸。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「這是和艾迪告別的吻嗎？」</p>
+                                    <p>&emsp;&emsp;姜典的手輕輕滑過陳柏文鼻尖，深刻描摹著他的容顏，用力放大感官好好記住當下。</p>
+                                    <p>&emsp;&emsp;「是，也不是。」</p>
+                                    <p>&emsp;&emsp;陳柏文的手放在姜典耳畔，雙脣輕輕磨蹭姜典的嘴角，溫柔的親暱著讓呼吸交融。他感受到姜典的手指在他臉上滑動，手指重重的按揉他的唇。他眼裡的溫柔暈眩了陳柏文的世界，恍惚間他以為自己還在鏡頭下，才有資格享受姜典那直白的毫無掩飾的愛意。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-29">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「只是想這樣做而已。」</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;抓住姜典的手吻了他的指尖，爾後帶到自己的臉頰，手指扣住他的指間感受他的掌心磨蹭於肌膚上的溫暖。另一隻手的手指在他的頸側滑動，稍稍撥弄喉結，感受到姜典的喉結上下滑動。</p>
+                                    <p>&emsp;&emsp;「欸，你知不知道你這樣真的很狡猾。」</p>
+                                    <p>&emsp;&emsp;說話間呼吸交融，空氣來回於兩人體內。姜典情不自禁的輕啄陳柏文的嘴角，卻輕碰就止。</p>
+                                    <p>&emsp;&emsp;「那典典你知道你的眼神很犯規嗎？」</p>
+                                    <p>&emsp;&emsp;陳柏文側頭吻著他的手，吻著他的鼻尖，他的眼瞼。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-30">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「有你那些細心犯規嗎？」</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;兩人額頭相抵，如同小動物親暱般摩蹭，時不時交換著吻雙唇卻從不觸碰。頻繁穿梭忘記自己身於何處，夢境延伸到了現實讓人漂浮其中。</p>
+                                    <p>&emsp;&emsp;然而陳柏文眉頭微皺，想了想開口。</p>
+                                    <p>&emsp;&emsp;「這樣還好吧！」</p>
+                                    <p>&emsp;&emsp;突然改變的口氣讓兩人對視三秒後一起噗哧的笑了出來，陳柏文收回自己的手改枕在自己頭下，而姜典也轉過身去笑得開懷。</p>
+                                    <p>&emsp;&emsp;「欸，要出去看星空嗎？」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-31">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;兩人出了帳篷感受到秋冬微涼的寒意，遠離都市光害後滿天星辰的夜景美的讓人摒住呼吸，隨意找了位子就躺下好好欣賞。</p>
+                                    <p>&emsp;&emsp;漫天的話題又扯到不知道哪裡，卻又回到了那個該有的正軌。</p>
+                                    <p>&emsp;&emsp;夜半星辰閃爍，黎明到來之前的深夜總是混沌不清曖昧不明，所有的情感迷離在一起無法分辨。就像遠眺遙遠的星空，看似貼近的星星實則有好幾百光年的距離，看似貼近的心橫亙著說不出口的承諾，親暱撫慰彼此只是暫時療傷。</p>
+                                    <p>&emsp;&emsp;希望時間再快一些，又希望時間暫留在這一刻。</p>
+                                    <p>&emsp;&emsp;天亮之前，他們是在一起的。</p>
+                                    <p>&emsp;&emsp;*</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-32">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;他們總有著心照不宣的默契，陳柏文是知道的。至少在宣傳結束前，在和陳毅艾迪說再見前是個緩衝期。躲回角色的殼裡他們隔著一層膜彼此相愛，任由曖昧情愫蔓延還能假裝是陳毅和艾迪。套上一層偽裝後能肆無忌憚的表達，角色變成了他們的防護罩，那些克制不住的綿綿情意有了正當理由。</p>
+                                    <p>&emsp;&emsp;即使他們都清楚對方早已出戲，即使他們都明瞭在拍攝之時那些愛戀都是給眼前的那個人，無關角色，只因為是他。</p>
+                                    <p>&emsp;&emsp;只是，只是一個階段結束後下一個階段才會開始，陳柏文想等這些每天黏在一起的工作結束，等到他們不再需要回到陳毅和艾迪，回到平靜日常的細水流長後發現生活中處處都是對方時。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-33">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;那時所說的一切都是陳柏文和姜典，所有碰觸時的心動和曖昧都只是因為彼此無關角色，那些從回報開始的保護與照顧早已成為本能。陳毅和艾迪終究會過去，雖說那也是他們不可分割的一部分但只會留於記憶中美好。</p>
+                                    <p>&emsp;&emsp;奇蹟歸於平凡後，會隨著日升日落成為熟悉。</p>
+                                    <p>&emsp;&emsp;因為太過於重要反而不敢輕舉妄動，小心翼翼的不像自己，陳柏文這才知道自己也有猶豫不決的時候。真正藏進心底的事物是如此的珍重，如何表達他還在學習。</p>
+                                    <p>&emsp;&emsp;等到他真正準備好的那刻，他會抓住屬於自己遙不可及的星辰、墜落於懷中的天使。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--05-->
+                    <div class="page-num-34">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;05</p>
+                                    <p>&emsp;&emsp;姜典有時回顧自己平平無奇的22年人生，最刺激又最確定的應該是踏上表演這條路吧。</p>
+                                    <p>&emsp;&emsp;而22歲這整年的自己到底做了什麼？確定拿到角色後讀本合宿，進入奇蹟劇組拍攝，拍完畢業照去了畢業典禮卻還沒畢業，跑宣傳直播見面會，和陳柏文開始了各種神奇的工作，好像有些偏離演員但做這些才有更多話語權。</p>
+                                    <p>&emsp;&emsp;姜典有時候會開始迷茫，但學業為第一要務的現在和熟悉的人一起多方嘗試也是一種好事，畢竟現在的他不太可能去接本。</p>
+                                    <p>&emsp;&emsp;生日即將到來的最近，每年最有過生日的感覺大概就是吹蠟燭吧。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-35">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;火柴會因為摩擦而被點燃，燃盡後自然熄滅。</p>
+                                    <p>&emsp;&emsp;點燃蠟燭之後火柴還持續燃燒著，所以他應該在熄滅前把握這一絲溫暖，話雖如此他還是在火苗即將燒到自己的手時，輕輕的呼了一聲。</p>
+                                    <p>&emsp;&emsp;吹熄了火柴。</p>
+                                    <p>&emsp;&emsp;*</p>
+                                    <p>&emsp;&emsp;姜典前面攤著一本空白筆記，虛無的轉筆盯著那片空白不發一語。</p>
+                                    <p>&emsp;&emsp;雖然說現在報告都是用電腦打字完成，但姜典在構思的時候還是喜歡拿紙筆隨意紀錄。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-36">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;期中報告交了之後還有其他作業，雖然說只是補個位數學分的大五上在課業上實在是稱不上沉重，但有些課程的報告既難寫又折磨人，時間有時還會和工作打架，更何況現在期末要到了。</p>
+                                    <p>&emsp;&emsp;期末，姜典側頭看著黑色的夜，面對期末的大學生整個人都是陰暗的，更何況是期末周還滿滿工作的延畢大學生。</p>
+                                    <p>&emsp;&emsp;工作、上課、作業、偶而的重訓、和室友一起吃飯，回歸平凡的生活一如往常，他也沒甚麼不滿，唯一的不滿大概是好好的聖誕佳節他既要考試又要交作業。</p>
+                                    <p>&emsp;&emsp;喔，還有見面會，但那個是開心的事算不上痛苦。</p>
+                                    <p>&emsp;&emsp;大三那整年修了電影演員創作，大四那年自己寫的劇本成為了畢業製作《我記得在天亮之前》，那一兩年他徹底體</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-37">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>驗到文字和表演所帶來不同的魔力。一年前拍攝時也是一樣的冬天，只是那時的他還是黑髮，拍攝出的作品是致敬自己的大學時光。不用天天與同一群人關在一個空間八小時以上的大學裡品嘗出的孤獨，夜半時分思索出的主旨成為作品的骨架。</p>
+                                    <p>&emsp;&emsp;時至今日，他依舊認定自己的本質是孤獨。</p>
+                                    <p>&emsp;&emsp;只是和一年前的自己相比還是有些變了，比起髮色這種外表還有更深層的東西，就算認定自己依舊孤獨他是再也寫不出像天亮一樣的作品。文字發散於想像之間又想訴說真實，雖貪心但這就是創作，透過著故事想表達出什麼。</p>
+                                    <p>&emsp;&emsp;姜典正提筆寫下。</p>
+                                    <p>&emsp;&emsp;信箱中關於工作日程的提醒靜靜地躺著，經紀人傳過來</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-38">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>的明日工作訊息姜典只是稍微掃過，見面不再難熬他早已習慣。</p>
+                                    <p>&emsp;&emsp;聊天室中的訊息還是有一搭沒一搭的，越來越稀少的見面機會每次相遇都飛快地交換最近發生的日常與近況，彼此都在往更好的方向前進姜典清楚的知道，都會迎來屬於彼此燦爛未來的——姜典如此堅信著。</p>
+                                    <p>&emsp;&emsp;訊息跳了出來，姜典拿起手機回陳柏文突如其來的詢問。</p>
+                                    <p>&emsp;&emsp;「你在家吧」</p>
+                                    <p style="font-weight: bolder;">&emsp;&emsp;「對阿，怎？」</p>
+                                    <p>&emsp;&emsp;「沒事，你覺得我宵夜要吃甚麼，不忌口的那種」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-39">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p style="font-weight: bolder;">&emsp;&emsp;「不忌口那當然是鹹酥雞配手搖啊」</p>
+                                    <p>&emsp;&emsp;「好喔」</p>
+                                    <p>&emsp;&emsp;「不吵你了你繼續寫作業我去買宵夜囉」</p>
+                                    <p>&emsp;&emsp;「再見」</p>
+                                    <p style="font-weight: bolder;">&emsp;&emsp;「傻眼笑死」</p>
+                                    <p style="font-weight: bolder;">&emsp;&emsp;「好喔我就是幫你點餐的」</p>
+                                    <p style="font-weight: bolder;">&emsp;&emsp;「陳柏文你行阿你」</p>
+                                    <p style="font-weight: bolder;">&emsp;&emsp;「…好啦的確我該寫作業」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-40">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;姜典扯了嘴角無語地看著手機，也不知道該不該感謝突如其來的打擾讓他不再陷入情緒的泥沼，最後只是將手機丟到一旁打開電腦對著資料和筆記打起了報告。</p>
+                                    <p>&emsp;&emsp;精神一旦專注就對時間失去了判斷，等到手機再度響起時姜典才有些迷糊的抬起頭，腦袋裡還有些生氣思緒被打斷，看到是誰打來的時候更是無語地翻了個白眼，嘆了一口氣按下接聽鍵馬上開口。</p>
+                                    <p>&emsp;&emsp;「你敢在那邊炫耀宵夜有多好吃你就死定了。」</p>
+                                    <p>&emsp;&emsp;「典典，下樓。」</p>
+                                    <p>&emsp;&emsp;「蛤？」</p>
+                                    <p>&emsp;&emsp;「我不方便上去也沒關係，下來領取姜典專屬uber eat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-41">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>熱騰騰宵夜鹹酥雞加手搖吧，為了熱騰騰我還是在關渡買的鹹酥雞，只是飲料沒辦法只能先買。有我陳柏文大帥哥的加持你吃完之後絕對精神百倍報告什麼都輕鬆通過。重點是，學分全部拿到順利畢業。」</p>
+                                    <p>&emsp;&emsp;「……你很煩誒我沒有被當過好嗎，好啦我現在下去。」</p>
+                                    <p>&emsp;&emsp;深夜，戶外氣溫在十度左右，冬至將近的寒冬姜典在房內翻出外套穿上，打開門告知室友等一下有人要來但會直接帶到自己的房間。</p>
+                                    <p>&emsp;&emsp;一打開大門寒風刺骨，這溫度出門簡直要人命，姜典有些瑟縮將下巴塞進圍巾之中，在溫暖裡抑制不住上揚的嘴角。</p>
+                                    <p>&emsp;&emsp;下樓看到熟悉的車走了過去，陳柏文把車窗搖下笑著遞</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-42">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>出宵夜。</p>
+                                    <p>&emsp;&emsp;「加油啊大學生。」</p>
+                                    <p>&emsp;&emsp;「誒你真的是瘋子。」</p>
+                                    <p>&emsp;&emsp;雙眼間星光閃閃，姜典吶吶著其實也不知道該怎麼開口，拎著宵夜時還能感受到一絲溫度，心頭一片溫熱驅趕寒意。</p>
+                                    <p>&emsp;&emsp;「之前工作見面就聽你說好幾次了，最近要交報告又要準備見面會根本忙到翻掉吧，寒冬中的小溫暖。不要太迷戀哥，哥只是送宵夜的uber eat。」</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;姜典笑了出來。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-43">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「那我要給你外送費嗎？」</p>
+                                    <p>&emsp;&emsp;「哦這個外送費的部分呢，已經由不具名大帥哥支付了，而客人您呢只要對那位大帥哥送上十二萬分謝意就能成功領取。」</p>
+                                    <p>&emsp;&emsp;「那，謝謝你。」</p>
+                                    <p>&emsp;&emsp;陳柏文望進姜典眼裡滿是真摯，雙目含情的眼神觸動著什麼。但就在姜典眨了下眼後又充滿自在的笑意。</p>
+                                    <p>&emsp;&emsp;「白癡喔好了啦，你要不要上來坐一下一起吃。」</p>
+                                    <p>&emsp;&emsp;關上搞笑幹話模式的陳柏文定睛看著在寒風中包得緊緊的姜典，眉眼如畫依舊如同去年認識他的時候一樣。他也說</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-44">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>不上來幹嘛跑這一趟，只是剛好在台北，只是剛好看到他對報告的小抱怨，只是覺得這條來他家的路好像又該來走走了。</p>
+                                    <p>&emsp;&emsp;只是想看到他收到驚喜開心的笑。</p>
+                                    <p>&emsp;&emsp;「不會打擾到你室友嗎？」</p>
+                                    <p>&emsp;&emsp;「不會，走啦。」</p>
+                                    <p>&emsp;&emsp;跟在姜典背後走著，陳柏文快步追上去搭上他的肩把重量壓在他身上，兩人又開始笑鬧著，走進公寓後姜典回過頭把大門關上。</p>
+                                    <p>&emsp;&emsp;寒風呼嘯而過，空氣潮濕而低溫總是令人不適。但關上大門後就隔絕了那些令人難受的冰冷刺骨，回到室內溫暖舒</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-45">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>適的世界。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--06-->
+                    <div class="page-num-46">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;06</p>
+                                    <p>&emsp;&emsp;比起要冷不冷要熱不熱的秋天，熱烈的盛夏與冷冽的寒冬才是陳柏文的選擇。</p>
+                                    <p>&emsp;&emsp;＊</p>
+                                    <p>&emsp;&emsp;進入室內後陳柏文先是熱烈的尋找小動物們，快樂的和牠們玩耍一番才脫掉外套等厚重衣物。姜典一路回到房內把報告匆匆做個暫時的結尾後把電腦闔上，坐在位子上自顧自地開始吃起宵夜。</p>
+                                    <p>&emsp;&emsp;「典典你的理想型⋯⋯現在是什麼？」</p>
+                                    <p>&emsp;&emsp;終於玩的甘心的陳柏文走進房間後馬上拋出這個問題，姜典嘴中還叼著鹹酥雞九層塔還掛在外面，有些呆滯傻愣的</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-47">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>看著陳柏文。</p>
+                                    <p>&emsp;&emsp;「太突然了吧。」</p>
+                                    <p>&emsp;&emsp;姜典笑了出來。</p>
+                                    <p>&emsp;&emsp;「我們不是之前聊過這個了嗎？怎麼了。」</p>
+                                    <p>&emsp;&emsp;姜典解決掉口中的食物後吸了一口手搖，抬頭看向朝他走近的陳柏文。</p>
+                                    <p>&emsp;&emsp;「所以你的答案還是讓你心動欣賞，相處輕鬆愉快，並且你足夠信任他想選擇他的人嗎？」</p>
+                                    <p>&emsp;&emsp;陳柏文單手撐在姜典的椅背上，也叉了一塊鹹酥雞送入口中。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-48">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「⋯⋯大概是吧，你也記得太清楚我都有點忘了我說過什麼。」</p>
+                                    <p>&emsp;&emsp;姜典有些訕笑著撇頭避開目光，眼神中的珍重他不知道自己有沒有資格承受，這些線索背後的真相他不敢奢望。</p>
+                                    <p>&emsp;&emsp;「⋯⋯」</p>
+                                    <p>&emsp;&emsp;「欸幹嘛突然不講話，你想幹嘛啦？」</p>
+                                    <p>&emsp;&emsp;陳柏文隨意拿起在桌上的白紙，拿筆在紙上寫下。</p>
+                                    <p>&emsp;&emsp;（聖誕節晚上要約嗎？）</p>
+                                    <p>&emsp;&emsp;姜典湊近閱讀紙上的字，用困惑的眼光看向陳柏文內心想著幹嘛不用說的，但還是順著陳柏文的引導接著寫下去。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-49">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;（你聖誕節確定有空？沒有其他約？）</p>
+                                    <p>&emsp;&emsp;（嗯有空，不一起過嗎？）</p>
+                                    <p>&emsp;&emsp;（我要再看看確切時間，但你要確定欸。）</p>
+                                    <p>&emsp;&emsp;（嗯，我想跟你一起我確定。）</p>
+                                    <p>&emsp;&emsp;姜典拿著筆突然不知道要回什麼，突然能感覺到目光停留在身上的溫度，墨水在紙上留下深色圓點，過了幾秒笑著蓋上筆蓋開口。</p>
+                                    <p>&emsp;&emsp;「明明聖誕前幾天是見面會還有生日趴，而且幹嘛啊回憶上課寫小紙條的童年喔？用說的明明快很多。」</p>
+                                    <p>&emsp;&emsp;陳柏文低著頭，手指輕撫過剛才寫下的字句緩緩開口。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-50">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「有些話我想只跟你說，有些話用寫的比較有勇氣表達。」</p>
+                                    <p>&emsp;&emsp;姜典側頭拿起手搖又喝了一口。</p>
+                                    <p>&emsp;&emsp;「你總是比我有勇氣多了。」</p>
+                                    <p>&emsp;&emsp;「但典典你比我會表達多了。」</p>
+                                    <p>&emsp;&emsp;陳柏文拿走姜典手上的手搖飲料把它放在桌上，牽著姜典的手拉到身側將他擁入懷。</p>
+                                    <p>&emsp;&emsp;「我只是想到什麼就會做而已。」</p>
+                                    <p>&emsp;&emsp;姜典的手抓住陳柏文的衣角，在他懷裡閉上眼，久違的入了夢。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-51">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;他不知道這樣可不可以，但這天實在是太冷，窗外的黑夜太暗，明明還是孤獨卻又回不去的孤獨。他懷裡也說不上溫暖，只是在懷中的那一刻嗅到了熟悉的味道，時光錯亂逆流世界穿梭。</p>
+                                    <p>&emsp;&emsp;但不變的是讓人安心的感覺。</p>
+                                    <p>&emsp;&emsp;十指相扣，手指被他的手緊緊包住，明明前幾天工作的時候做過的但又不一樣。</p>
+                                    <p>&emsp;&emsp;這一個多月的沈澱讓一切變得靜悄悄，很多東西總是這樣悄無聲息的來，原以為放置著會沖淡一切隨著時間煙消雲散，但事實上好像只是會隨著時間發酵變得更加醇厚。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「週日晚上我只有七點後有空。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-52">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;姜典輕輕推開陳柏文，轉頭背對他吃起了宵夜。</p>
+                                    <p>&emsp;&emsp;「看在uber eat的份上，勉強答應你吧。」</p>
+                                    <p>&emsp;&emsp;姜典臉上掛著若有似無的笑意。</p>
+                                    <p>&emsp;&emsp;夢裡寒冬已過，溫暖簇擁著四季熨貼著心。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--07-->
+                    <div class="page-num-53">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;07</p>
+                                    <p>&emsp;&emsp;「你要知道，你對我來說真的很重要。謝謝你，我愛你。」</p>
+                                    <p>&emsp;&emsp;「用我、愛、人部的他、女部的她造一個句子。」</p>
+                                    <p>&emsp;&emsp;「答案是她愛他。」</p>
+                                    <p>&emsp;&emsp;「那我呢？」</p>
+                                    <p>&emsp;&emsp;「我愛你。」</p>
+                                    <p>&emsp;&emsp;*</p>
+                                    <p>&emsp;&emsp;天黑了，開車於校園內的道路時彷彿這夜晚沒有一絲燈</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-54">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>光，道路旁樹林叢生不免俗的帶來些詭譎陰森感，夜晚山上的氣溫總是比平地低上幾度。</p>
+                                    <p>&emsp;&emsp;「你怎麼會想到要在北藝看夜景？」</p>
+                                    <p>&emsp;&emsp;車內暖黃的燈光與車外的黑暗行成鮮明對比，姜典笑著邊吃薯條邊問陳柏文，他也是沒想到好好的晚餐約突然變成看夜景，見面會送他回去的路上兩人一起聊天時的臨時起意，他原本想說隨便先果腹再赴約，然而陳柏文說他會帶食物上山當點心他也就沒先特別吃過。</p>
+                                    <p>&emsp;&emsp;如今的姜典腿上放了好幾個麥當勞紙袋，一邊從裡面拿薯條出來吃笑得很開心，雖然早知如此他就先在學校吃學餐了。</p>
+                                    <p>&emsp;&emsp;「就想說約近一點你比較方便。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-55">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「有差嗎大哥反正都你開車啊。」</p>
+                                    <p>&emsp;&emsp;「哎唷你們學校的台北市夜景不是也蠻好看的嗎？」</p>
+                                    <p>&emsp;&emsp;「好看是沒錯啦，我都唸四年半了我當然看過啊，欸欸前面路邊停車然後我們走到旁邊的雕塑公園，那裡的景蠻漂亮的。平常就已經夠多了但今天感覺會有更多情侶喔⋯⋯」</p>
+                                    <p>&emsp;&emsp;陳柏文握住方向盤的手收緊了一些，姜典將這一切收進眼底將薯條送入口中。</p>
+                                    <p>&emsp;&emsp;「那要下車看嗎？」</p>
+                                    <p>&emsp;&emsp;陳柏文仔細看著螢幕換檔打著方向盤路邊停車。</p>
+                                    <p>&emsp;&emsp;「幹嘛不要，反正烏漆嘛黑的。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-56">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;姜典拿出衛生紙擦了擦有些油膩的手，穿上大衣圍上圍巾，試圖整個人縮進去減少皮膚接觸空氣面積，畢竟十二月晚上的北藝真的很冷，臨近淡水河畔海風吹過，潮濕冷風加上山上低溫總是冰冷刺骨。</p>
+                                    <p>&emsp;&emsp;下車後只有些小燈光照亮道路，到了草皮那塊可以說是一片黑暗，但出乎意料的沒有其他人在場，姜典帶著陳柏文熟門熟路的在草皮中找到一個位子坐下。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「差不多這附近吧，你看前面是不是很漂亮。」</p>
+                                    <p>&emsp;&emsp;他們身處於近乎沒有燈光的夜晚，但視野中的夜景亮麗奪目。</p>
+                                    <p>&emsp;&emsp;「嗯，很漂亮。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-57">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;夜晚的社子大橋總是會變換七彩燈光，一旁的路燈黃澄澄的點綴於一大片黑暗中，焚化爐沒什麼燈光照耀卻在一旁聳立著，再遠處一些圓山大飯店和台北101也是清晰可見，伴隨著萬家燈火閃爍於夜空。</p>
+                                    <p>&emsp;&emsp;姜典從紙袋裡捧出玉米濃湯試圖取暖，但早已被這氣溫冷卻到不再溫熱，但也幸好不是冰冷，姜典喝了一口覺得還可以。</p>
+                                    <p>&emsp;&emsp;「你有看到那個大橋嗎？那邊勉強算是我家附近，社子大橋附近超酷的雖然是台北市卻有農田，而且你有沒有看到那個焚化爐，那邊其實有游泳池，我記得我們家應該只要帶身分證證明自己的戶籍地址就可以免費游泳，不過我一次都沒去過。」</p>
+                                    <p>&emsp;&emsp;陳柏文隨著姜典手指的方向往前瞄了一眼，就隨即側頭</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-58">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>看著他興奮分享的側臉，隱約的光線照耀和近距離下臉孔輪廓清晰可見，悄悄的再靠近一些。</p>
+                                    <p>&emsp;&emsp;「欸這天氣真的蠻冷的，我們東西吃一吃就差不多了吧。」</p>
+                                    <p>&emsp;&emsp;「典典。」</p>
+                                    <p>&emsp;&emsp;「啊？」</p>
+                                    <p>&emsp;&emsp;姜典轉過頭的時候陳柏文單手遮住他的眼，額頭靠了上去，冰冷的空氣中混雜著溫熱的鼻息讓原本有些僵住的姜典稍稍扯開嘴角，右手往前放在陳柏文大腿上。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「我剛剛很認真在分享欸你有沒有在聽。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-59">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「有，只要是你說的我都有在聽。」</p>
+                                    <p>&emsp;&emsp;陳柏文頓了一下，然後又開口。</p>
+                                    <p>&emsp;&emsp;「你知道我為什麼要約這裡嗎？因為這裡是你待了四年的母校是你熟悉的地方，所以我想要在這裡和你說一些話。」</p>
+                                    <p>&emsp;&emsp;黑暗中其他感官變得更加敏銳，陳柏文原本冰冷的手漸漸溫暖了起來，聲音聽起來有些緊張和僵硬。</p>
+                                    <p>&emsp;&emsp;「我們之前明明有那麼多私下相處時間，有什麼不是那時候可以說的。」</p>
+                                    <p>&emsp;&emsp;姜典帶著笑說，看不到陳柏文的眼神讓他稍感不安，但肢體的接觸讓他感到安心。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-60">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「因為今天是聖誕夜，因為我們的生日剛過，因為今年奇蹟的見面會終於結束了。至於為什麼遮住你的眼睛，只是覺得如果你看著我我可能害羞到更說不出口。」</p>
+                                    <p>&emsp;&emsp;陳柏文緊張時的呼吸頻率，聲音雖然有些顫抖卻是如此的肯定，姜典手指悄悄捏緊。</p>
+                                    <p>&emsp;&emsp;「我以前從來都沒有真正說過心動的時候，應該說連我自己都不明白原來那時的我正在心動，我只是以為一切都是演戲的自然反應，沒有想太多。直到後來⋯⋯後來結束拍攝離開劇組離開劇本只剩我們彼此的時候，我發現我在想念艾迪的眼神，我一開始以為我在想念艾迪，但不是。」</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「直到開始宣傳，在那些工作中我發現⋯⋯我發現我想念你帶著愛意看向我的眼神，那時的你早就不是艾迪而陳毅</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-61">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>也已經離開很久，但那些拍戲時的情感還是不斷衝擊著我。<br>」</p>
+                                    <p>&emsp;&emsp;陳柏文嚥了一口口水。</p>
+                                    <p>&emsp;&emsp;「我這才意識到陳毅愛著艾迪，是源自於陳柏文對姜典的愛。而這原本模模糊糊的想法在一次次不管是工作還是私下的接觸下更加清楚，我相信你也有發現，在我意識到之前行為早就改變了。只是⋯⋯只是我在害怕承認也害怕做出改變。我現在依舊害怕，但經過這些宣傳後我想應該要把這些全部說出來，我想在今年的見面會之後，在我們生日後的聖誕夜，經過好好思考消化後告訴你。</p>
+                                    <p>&emsp;&emsp;「我對你仰頭依賴我的眼神心動。」</p>
+                                    <p>&emsp;&emsp;安靜的氛圍圍繞於兩人之間，空白了幾秒後姜典開口。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-62">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「⋯⋯陳柏文你的表達能力變得真好。」</p>
+                                    <p>&emsp;&emsp;「欸我也是有進步的吧。」</p>
+                                    <p>&emsp;&emsp;兩人一起笑了出來，笑聲持續了幾秒後歸於寂靜，陳柏文的手包住姜典的手。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「陳柏文，我現在再說一次，不要把愛分門別類，謝謝你願意把這些分享給我，我愛你。」</p>
+                                    <p>&emsp;&emsp;陳柏文緩緩向前吻住姜典的唇，沒有護唇膏的嘴唇在寒風中有些起皮，在視覺被剝奪的黑暗中觸感更加清楚，唇瓣柔軟的觸感既熟悉又陌生。</p>
+                                    <p>&emsp;&emsp;陳柏文稍稍退開，唇瓣若有似無的碰觸細語著。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-63">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「前幾天的二十七歲生日我許下了願望，我希望我們的關係能一直都很好，無論如何都要陪在對方身邊。」</p>
+                                    <p>&emsp;&emsp;姜典左手抬起握住陳柏文矇住眼的手臂，另一隻手放在陳柏文的肩上。</p>
+                                    <p>&emsp;&emsp;「二十三歲的姜典對著生日蛋糕許願的時候想著，要是身旁的那個人可以每年都和他一起過生日就好了。」</p>
+                                    <p>&emsp;&emsp;姜典笑著輕搖頭。</p>
+                                    <p>&emsp;&emsp;「現在想起來怎麼會跟艾迪那麼像。」</p>
+                                    <p>&emsp;&emsp;陳柏文緩緩放下遮住姜典雙眼的手，他看著姜典原本閉起的眼睛睜開，在黑暗中還是那麼耀眼奪目，還沒整理好的時候雙眼對視上，其中的情感毫無掩飾的傳達給對方。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-64">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;下一秒兩人又吻上了。</p>
+                                    <p>&emsp;&emsp;姜典的雙手環上陳柏文的肩膀，而陳柏文一手攬住後腦勺一手摟著腰。</p>
+                                    <p>&emsp;&emsp;寒風中的肢體貼近互相取暖，比起那時的夜一切都變了，時間點早了許多氣溫也低了許多，那時離別的是陳毅與艾迪，而剩下的故事由陳柏文姜典一起寫下未完待續。</p>
+                                    <p>&emsp;&emsp;帶著笑交換著吻，在黑暗的環境中更能卸下防備，原本停下過了幾秒後雙唇又繼續黏上。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「欸食物冷⋯⋯冷掉了啦。」</p>
+                                    <p>&emsp;&emsp;「那不重要。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-65">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「嗚嗯嗯⋯⋯好了啦！這裡很冷欸要繼續回去再說。」</p>
+                                    <p>&emsp;&emsp;姜典無奈地笑著大力推開陳柏文。</p>
+                                    <p>&emsp;&emsp;「嗯，好，回去吧。」</p>
+                                    <p>&emsp;&emsp;陳柏文立刻收拾好東西站起身，姜典還眨著眼看陳柏文飛快的動作，有些疑惑的開口。</p>
+                                    <p>&emsp;&emsp;「你⋯⋯你有看夜景嗎？」</p>
+                                    <p>&emsp;&emsp;「有啊，不就在我們面前嗎。」</p>
+                                    <p>&emsp;&emsp;陳柏文朝姜典伸出手，握住他的手後拉姜典起身。</p>
+                                    <p>&emsp;&emsp;「欸，你目的不是夜景的話聖誕夜幹嘛帶我來吹冷風，</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-66">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>食物什麼的都還冷掉了。」</p>
+                                    <p>&emsp;&emsp;「我就想找一個夠浪漫燈光暗但你又可以安心的地方嘛⋯⋯」</p>
+                                    <p>&emsp;&emsp;「這裡哪裡浪漫了明明冷得要死。」</p>
+                                    <p>&emsp;&emsp;陳柏文就這樣牽著姜典的手漸漸離開雕塑公園。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「⋯⋯你剛剛是不是說想在見面會之後跟我說，啊我們一月不是還有見面會。」</p>
+                                    <p>&emsp;&emsp;「那明年的事啦！」</p>
+                                    <p>&emsp;&emsp;「典典，那個⋯⋯關係啊⋯⋯」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-67">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「喔，等奇蹟的宣傳工作結束再說。」</p>
+                                    <p>&emsp;&emsp;「為什麼？我們明明彼此——」</p>
+                                    <p>&emsp;&emsp;「在工作結束前這樣會少很多麻煩啦，搭檔。」</p>
+                                    <br>
+                                    <p>&emsp;&emsp;「欸，聖誕快樂。」</p>
+                                    <p>&emsp;&emsp;「Merry Christmas！」</p>
+                                    <p>&emsp;&emsp;他們在車上接著吻，吻了許久許久，久到彷彿要把過去幾個月錯過的份一起補上。</p>
+                                    <p>&emsp;&emsp;但那些錯過也是一種美好，曖昧不明混沌不清也是當下</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-68">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>最純真的悸動。那些時光在過去的節點中留下了深刻的印記<br>，回過頭看那些酸澀早已醞釀發酵成醇厚的情感。</p>
+                                    <p>&emsp;&emsp;而如今就算是天亮之後，他們也是在一起的。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--08-->
+                    <div class="page-num-69">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;08</p>
+                                    <p>&emsp;&emsp;不要把愛分門別類，對，我想我是愛著陳柏文的。</p>
+                                    <p>&emsp;&emsp;我愛的人叫作姜典，姜子牙的姜，字典的典。</p>
+                                    <p>&emsp;&emsp;*</p>
+                                    <p>&emsp;&emsp;過完年開工後的台北總是吝嗇於讓春意來臨，鍾情於綿綿細雨久久無法停止。</p>
+                                    <p>&emsp;&emsp;冰冷濕寒，上衣與下著都濕透沾黏在肌膚上。整個人站在台北陰暗的雲層下，雨滴彷彿帶走了什麼讓深層的東西被看得更清楚，不斷降下的雨再怎樣也澆不息心中的炙熱。</p>
+                                    <p>&emsp;&emsp;陳柏文是決定好就會行動的人。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-70">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;他等不及把天使扯入懷中一同沈淪。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;*</p>
+                                    <p>&emsp;&emsp;窗外雨聲滴答但室內悠然自得，姜典隨意地躺在沙發上撸著睡在他懷裡的阿虎。沒有工作的休息日就要放鬆充電，雖然沒有工作也是一件令人煩惱的事，但如今的姜典選擇隨遇而安。緩緩地瞇上眼，就在姜典即將隨著阿虎進入夢鄉之際突如其來的電話打破滿室寂靜，驚醒了貓也讓姜典坐起身來。</p>
+                                    <p>&emsp;&emsp;「姜典，下來！」</p>
+                                    <p>&emsp;&emsp;接起電話後窗外雨聲掩蓋所有，但勉強聽得出來是陳柏文的聲音，原本有些睏意迷糊的姜典瞬間醒了過來。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-71">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「蛤？大冬天的還下雨，外面又濕又冷你幹嘛？」</p>
+                                    <p>&emsp;&emsp;「奇蹟的宣傳工作結束了，我是不是還欠你一個正式的告白。」</p>
+                                    <p>&emsp;&emsp;「⋯⋯蛤？」</p>
+                                    <p>&emsp;&emsp;「你快點下樓我手機一直在淋雨我怕它壞掉。」</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;姜典楞楞的看著手機上顯示通話結束，轉念一想瞬間跳了起來跑向窗邊，依稀可見熟悉的車和某位身高186的男子就這樣站在那裡淋雨。</p>
+                                    <p>&emsp;&emsp;腦袋裡只有「這傢伙是白痴吧」的念頭，姜典匆忙的穿好衣服拿好雨傘就出門，剛才被驚醒的阿虎又跳回沙發上看</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-72">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>著匆忙的姜典，就在他關上大門時喵了一聲，晃了晃頭趴下身閉上眼。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「典典！」</p>
+                                    <p>&emsp;&emsp;下樓後看到陳柏文傻笑的表情姜典狠狠翻了個白眼，撐著傘踩進水窪之中濺起大波漣漪，褲腳沾溼黏在身上，濕冷浸入肌膚姜典卻毫不在意。</p>
+                                    <p>&emsp;&emsp;「白癡喔現在那麼冷沒傘也不知道找個地方躲。」</p>
+                                    <p>&emsp;&emsp;手上的毛巾直接丟到陳柏文臉上，一股腦的用力擦乾他臉上的雨水和濕漉的頭髮。</p>
+                                    <p>&emsp;&emsp;「因為這樣我們才能共撐一把傘啊。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-73">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;陳柏文傻笑著的表情因為被毛巾擋住而看不見，但姜典用腳想就能想像出他傻笑著看起來呆呆的樣子。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「感冒影響工作怎麼辦？蠢喔。」</p>
+                                    <p>&emsp;&emsp;拿下毛巾後看著炸毛亂翹的頭髮讓姜典笑了出來，伸出手稍微理了一下陳柏文的頭髮，而陳柏文低下頭接過傘柄任他動作，而姜典就順勢兩手一起整理。</p>
+                                    <p>&emsp;&emsp;「奇蹟宣傳工作差不多結束了吧，所以可以了嗎？」</p>
+                                    <p>&emsp;&emsp;不知不覺拉近的距離，等姜典意識到時候他們的姿勢就像自己的雙手環住陳柏文。他睜大雙眼就像在期待著什麼一樣，那瞬間姜典想到等待餵食的大狗狗們好像也是這種眼神<br>。想到這姜典笑著雙手摟著陳柏文的脖子。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-74">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「可以什麼？」</p>
+                                    <p>&emsp;&emsp;雨幕隔出了傘下的世界，雨滴敲擊傘面也敲擊著陳柏文的心弦，姜典歪著頭上揚的語氣和翹起的嘴角一臉得意的樣子，讓陳柏文更加下定決心張開口。</p>
+                                    <p>&emsp;&emsp;「姜典！你可以成為——」</p>
+                                    <p>&emsp;&emsp;「白癡喔大叫什麼。」</p>
+                                    <p>&emsp;&emsp;姜典急忙摀住陳柏文的嘴並左右看著四周，因為下著雨的緣故路上沒有路人。和姜典有些慌亂不同的神情不同，陳柏文的眼神中充滿寵溺與笑意。</p>
+                                    <hr>
+                                    <p>&emsp;&emsp;「那你可以成為我男朋友嗎？」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-75">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;陳柏文拿開姜典的摀在嘴上的手並牽著，側著頭低聲在姜典耳邊訴說。</p>
+                                    <p>&emsp;&emsp;「⋯⋯我覺得你還是先上樓換衣服吧別感冒了。」</p>
+                                    <p>&emsp;&emsp;姜典低下頭看著地面上的水窪，想要順勢拉著陳柏文一起移動卻發現拉不動。</p>
+                                    <p>&emsp;&emsp;「欸陳柏文走啊！」</p>
+                                    <p>&emsp;&emsp;「你不給我答案我不走。」</p>
+                                    <p>&emsp;&emsp;那瞬間姜典突然覺得自己是帶大狗狗出來玩的主人，要回家了但狗狗還依依不捨的想要繼續玩。</p>
+                                    <p>&emsp;&emsp;「快點啦很冷欸我褲腳都濕了。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-76">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;用楚楚可憐的眼神望著陳柏文，裝作自己好像真的很冷。姜典一邊唾棄自己居然把表演用在這種地方一邊又覺得——嗯這真好用。</p>
+                                    <p>&emsp;&emsp;「好啦⋯⋯」</p>
+                                    <p>&emsp;&emsp;看著陳柏文妥協的樣子成功讓姜典笑了出來，拉著手一前一後的走著。進入樓梯間後即將走到門口時姜典停了下來，轉過身站在比陳柏文高了一個台階的地方。</p>
+                                    <p>&emsp;&emsp;「做好準備換一個身分來我家了嗎？」</p>
+                                    <p>&emsp;&emsp;姜典前傾貼上陳柏文的唇後隨即退開，在陳柏文還在呆愣著的時候用鑰匙打開了大門。</p>
+                                    <p>&emsp;&emsp;「別呆著進來，你很會挑時間欸今天室友們都回自己家</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-77">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>了，我留著顧貓。」</p>
+                                    <p>&emsp;&emsp;陳柏文這才漸漸反應過來剛才發生的事，原本興奮的想驚呼但考量但樓梯間所以不敢喧嘩，而嘴角怎麼都壓不下去，踏著輕快的腳步步入姜典的租屋處。</p>
+                                    <p>&emsp;&emsp;喀擦一聲，大門關上了。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--09-->
+                    <div class="page-num-78">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;09</p>
+                                    <p>&emsp;&emsp;雨傘落在玄關無人理會，潮濕的水氣沾染上姜典的衣物，應該要掛在衣架上的外套隨意丟在地上，幸好室內開了暖氣有一定的溫度，但對於目前熱烈的兩人來說這完全不在他們關心的範圍內。</p>
+                                    <p>&emsp;&emsp;一關上門後姜典就被反壓在大門上，雙唇炙熱的索取著彼此，顫慄由脊椎尾端蔓延全身，衣物散落一地肌膚沾染了雨水的濕氣。陳柏文一把將姜典抱起，姜典的雙手繼續摟著陳柏文雙腳纏在他的腰上，低下頭繼續纏綿的吻著，走進了浴室。</p>
+                                    <p>&emsp;&emsp;氤氳水氣中濕黏的吻，蓮蓬頭開著灑下水，陳柏文將姜典困在牆角，而姜典的手指滑過陳柏文的胸膛，緩緩向上滑動感受肌膚帶來的觸感，略帶調情的挑逗著，爾後手掌抓住</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-79">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>陳柏文的下頷後卻兇狠的吻著。</p>
+                                    <p>&emsp;&emsp;舌尖滑過上顎逗弄著感官，引起快感讓人更加迷醉，本能主導一切追求歡愉。</p>
+                                    <p>&emsp;&emsp;陳柏文的吻往下到頸間，輕輕吻過小巧可愛的耳畔，含住喉結用舌頭舔舐。姜典的手抓住陳柏文後腦勺的短髮，半瞇著眼抬著頭，眼神朦朧的望著充滿水氣的浴室上方，在陳柏文的舌尖碰觸到喉結的瞬間瑟縮了一下，手用力揪緊了頭髮。</p>
+                                    <p>&emsp;&emsp;相貼的身體早就感受到對方早已起了生理反應，陳柏文先是大腿卡入姜典雙腿之間，往上輕輕磨蹭卻不得章法，連帶的吻也有些急躁。姜典輕輕笑著拉住陳柏文的手握住自己的頂端，碰觸的瞬間兩人雙眼對視，姜典望盡陳柏文眼中的小心翼翼與愛護，微墊起腳尖吻住他的喉結。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-80">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;姜典的手也包覆住陳柏文的頂端，黏液沾黏在手上的感覺當然熟悉，但撫慰的尺寸和以往不同總歸有些不習慣。細碎的喘息在彼此的耳邊，時不時的啄吻著眼前的肌膚，接吻不斷，藉由套弄的上下動作快感連綿襲來，呻吟斷斷續續的含糊在齒間。</p>
+                                    <p>&emsp;&emsp;彷彿誰都不肯認輸般的遲遲沒人射，陳柏文使出渾身解術的摩擦前端的連接敏感處，姜典也依樣畫葫蘆的更加賣力，笑著靠在陳柏文耳畔留下綿綿細吻，開了口。</p>
+                                    <p>&emsp;&emsp;「柏文哥哥，你不射嗎，嗯？」</p>
+                                    <p>&emsp;&emsp;伴隨著加快的速度，就在姜典尾音上勾的瞬間白濁奔發於姜典的手掌之間。</p>
+                                    <p>&emsp;&emsp;陳柏文無奈地笑著搖著頭，低下頭和姜典接了深吻。手</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-81">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>上套弄的速度也加快，沒在忍耐的姜典從喉間發出哼聲也射了出來。兩人滿手的白濁濕黏很快就被蓮蓬頭的水帶走，兩人低下頭一起笑了出來，抬頭對視又輕吻住對方的唇瓣。</p>
+                                    <p>&emsp;&emsp;簡單的洗過澡之後就連毛巾都沒有拿進來，等到兩人都打理好穿好衣服後地上滿是剛才從身上滴下的水滴。陳柏文穿著姜典寬鬆的睡衣躺進姜典的被窩中，看著門外正在處理的姜典滿足地笑著。</p>
+                                    <p>&emsp;&emsp;「陳柏文！明明也有你的份你還在那裡躺著偷懶。」</p>
+                                    <p>&emsp;&emsp;陳柏文將自己整個人塞進姜典的被窩裡，深深的吸一口氣感受全身上下被姜典包圍的感覺。聽到姜典的聲音後只探了一顆頭出來開口。</p>
+                                    <p>&emsp;&emsp;「我現在在畫地盤。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-82">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;「你說什麼？」</p>
+                                    <p>&emsp;&emsp;終於把散落地上的衣服丟進洗衣籃和清理乾淨地上的水漬，姜典走進房間關上門看到陳柏文打滾著弄亂自己的床。</p>
+                                    <p>&emsp;&emsp;「你在幹嘛啦？」</p>
+                                    <p>&emsp;&emsp;姜典坐在床邊無奈地笑著看陳柏文，等到陳柏文終於忙完之後睜著雙眼看向姜典，他臉上開朗的笑和眼神中散發的光讓姜典情不自禁的撫上他的臉頰，陳柏文側頭吻著他的手指，手一拉將姜典拉進懷中。</p>
+                                    <p>&emsp;&emsp;「佔地盤啊，你已經是我的，所以你的衣服也是我的床也是我的。」</p>
+                                    <p>&emsp;&emsp;「欸！等一下喔好好說話。」</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-83">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>&emsp;&emsp;姜典伸出食指戳開陳柏文的額頭。</p>
+                                    <p>&emsp;&emsp;「我的東西還是我的，你的東西才是我的，不管是艾迪還是姜典都一樣。」</p>
+                                    <p>&emsp;&emsp;手放下後順勢抓住陳柏文的衣領一把拉近距離。</p>
+                                    <p>&emsp;&emsp;「但佔地盤這件事我準了，男朋友。」</p>
+                                    <p>&emsp;&emsp;兩人的視線一同往下移到對方的唇，闔上雙眼輕柔的吻上，雙唇磨蹭纏綿，比起慾望更是表達親暱的一種方式。陳柏文雙手撐在姜典的兩邊將他壓在身下密密的吻著，略帶神聖的膜拜親吻著姜典，陷入被褥中兩人更有被愛意溫暖包圍的感覺。</p>
+                                    <p>&emsp;&emsp;寒冬該過去了即將迎接春天，這是他們相識的第二年，</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-num-84">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <div class="text">
+                                    <p>去年的他們也是這樣接著吻，只是在片場身邊還圍繞著劇組工作人員們，那時相愛的人還是陳毅與艾迪。</p>
+                                    <p>&emsp;&emsp;不斷地掙扎著最後還是回到了對方身邊，不管如何就算受傷也好，即使傷痕累累但那些都是愛存在的證明。黑色的夜中只要有對方就不再害怕，存在即會照亮世界帶來安全感。</p>
+                                    <p>&emsp;&emsp;無論如何，就算是被炙熱的溫度灼傷也要待在對方身邊。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--完-->
+                    <div class="page-num-end">
+                        <div class="pages-content">
+                            <div class="content-inner">
+                                <p>完</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="javascript/turn.js"></script>
+    <script src="javascript/flipBook.js"></script>
+    <script src="javascript/callMenu.js"></script>
+</body>
+
+</html>
