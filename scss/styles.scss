@@ -39,10 +39,14 @@ a {
   }
 }
 
+hr{
+  border-color: transparent;
+  margin: 0;
+}
+
 .container {
   overflow: hidden;
   @include displayCenter();
-  position: relative;
 }
 
 .book-wrapper {
@@ -52,30 +56,81 @@ a {
   width: 1000px;
   @include displayCenter();
 
-  img {
-    filter: drop-shadow(15px 5px 5px #494338);
-    max-width: 148%;
+  #menu {
+    position: absolute;
+    top: -3.6%;
+    @include displayCenter();
+    width: 500px;
+    z-index: 98;
+
+    h1 {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0), 80%, rgb(254, 240, 166) 20%);
+      padding: 5px;
+      cursor: pointer;
+      text-shadow: rgb(254, 240, 166) 0.1em 0.1em 0.2em;
+
+      a {
+        padding: 5px;
+
+        &:hover,
+        &:focus {
+          background: linear-gradient(180deg, rgba(255, 255, 255), 80%, rgb(254, 240, 166) 20%);
+        }
+      }
+    }
   }
-}
 
-.book-cover {
-  @include displayCenter();
-}
+  #toPage {
+    position: absolute;
+    top: -0.1%;
+    left: 11%;
+    right: 0;
+    bottom: 0;
+    height: 85px;
+    width: 100px;
+    z-index: 99;
 
-.pages-container {
-  position: absolute;
-  top: 10%;
-  left: 8%;
-  right: 0;
-  bottom: 0;
-  width: 850px;
-  height: 600px;
+    input {
+      height: 42px;
+      width: 80px;
+      border: 0px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0), 80%, rgb(254, 240, 166) 20%);
+      font-size: 2em;
+      color: #fff;
+      caret-color: #fff;
+      text-align: center;
+
+
+      &::placeholder {
+        color: black;
+        font-weight: 700;
+        text-shadow: rgb(254, 240, 166) 0.1em 0.1em 0.2em;
+        font-size: 0.9em;
+      }
+    }
+  }
+
+  .book-cover {
+    img {
+      filter: drop-shadow(15px 5px 5px #494338);
+      max-width: 148%;
+    }
+  }
+
+  .pages-container {
+    position: absolute;
+    top: 10%;
+    left: 10.5%;
+    right: 0;
+    bottom: 0;
+    width: 850px;
+    height: 600px;
+  }
 }
 
 .pages [class^="page-num-"] {
   background-image: url("https://github.com/HungXingYu/img/blob/main/page.jpg?raw=true");
   background-size: auto 100%;
-  position: relative;
 }
 
 .pages-content {
@@ -153,27 +208,6 @@ a {
 }
 
 
-#menu {
-  position: absolute;
-  top: -1.5%;
-  @include displayCenter();
-  cursor: pointer;
-
-  h1 {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0), 80%, rgb(254, 240, 166) 20%);
-    padding: 5px;
-
-    a {
-      padding: 5px;
-
-      &:hover,
-      &:focus {
-        background: linear-gradient(180deg, rgba(255, 255, 255), 80%, rgb(254, 240, 166) 20%);
-      }
-    }
-  }
-}
-
 .menuBanner {
   background: linear-gradient(rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.1)), url("https://raw.githubusercontent.com/HungXingYu/img/main/background2.webp");
@@ -213,5 +247,5 @@ a {
       }
     }
   }
-
 }
+
