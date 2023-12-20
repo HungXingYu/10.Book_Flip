@@ -1,4 +1,4 @@
-const menu = document.querySelector("#menu")
+const menu = document.querySelector("#menu h1")
 
 
 menu.addEventListener("click", (event) => {
@@ -9,6 +9,8 @@ menu.addEventListener("click", (event) => {
 })
 
 function showMenu(){
+    if(inputPageNum !== null) inputPageNum.disabled=true;
+
     const div = document.createElement("div")
     div.classList.add("menuBanner")
     div.innerHTML = `
@@ -24,6 +26,7 @@ function showMenu(){
                 <h1>柏典故事</h1>
                 <h2><a href="betweenDream.html">與夢之間</a></h2>
                 <h2><a href="ILoveYou.html">我愛你</a></h2>
+                <h2><a href="volcano.html">volcano</a></h2>
             </div>
         </div>
     `
