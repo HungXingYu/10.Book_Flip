@@ -59,3 +59,12 @@ function ToPage(pageNum){
     if (rightPage !== null) SetPageNum(rightPageNum, rightPage)
     if (leftPage !== null) SetPageNum(leftPageNum, leftPage)
 }
+
+let inputPageNum = document.querySelector('#toPage input')
+inputPageNum.addEventListener("keypress", (event)=>{
+    if(event.key === "Enter"){
+        event.preventDefault();
+        ToPage(Number(inputPageNum.value))
+        inputPageNum.value = ""
+    }
+})
